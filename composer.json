@@ -1,0 +1,29 @@
+{
+  "name": "creatuity/rocketeer-slurp",
+  "description": "Plugin for Rocketeer to slurp a copy of a site, useful for preparing development sites.",
+  "license": "MIT",
+  "keywords": [
+    "rocketeer",
+    "deployment",
+    "slurp"
+  ],
+  "authors": [
+    {
+      "name": "Joshua Warren",
+      "email": "josh@creatuity.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "anahkiasen/rocketeer": "~2.1",
+    "albertofem/rsync-lib": "dev-master"
+  },
+  "require-dev": {
+    "illuminate/support": "~4.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Rocketeer\\Plugins\\RocketeerSlurp\\": "src/RocketeerSlurp"
+    }
+  }
+}
