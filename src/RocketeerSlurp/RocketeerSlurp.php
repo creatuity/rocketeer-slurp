@@ -4,6 +4,7 @@ namespace Rocketeer\Plugins\RocketeerSlurp;
 use Illuminate\Container\Container;
 use Rocketeer\Services\Tasks\TasksQueue;
 use Rocketeer\Abstracts\AbstractPlugin;
+use Rocketeer\Services\TaskHandler;
 
 class RocketeerSlurp extends AbstractPlugin
 {
