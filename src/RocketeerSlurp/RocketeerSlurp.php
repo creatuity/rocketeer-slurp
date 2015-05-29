@@ -39,8 +39,9 @@ class RocketeerSlurp extends AbstractPlugin
      *
      * @return void
      */
+    /*
     public function onQueue(TasksHandler $queue)
     {
     }
-
+*/
 }
